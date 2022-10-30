@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ClockByClass from "./Components/Ejercicios456/ClockByClass";
+import ClockByFuntions from "./Components/Ejercicios456/ClockByFunctions";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 style={{color:'red'}}>EXCERCISES 4-5-6</h1>
+      <hr />
+      <h2 style={{color:'blue'}}>BY CLASS</h2>
+      <ClockByClass />
+      <hr />
+      <h2 style={{color:'blue'}}>BY FUNCTIONS</h2>
+      <ClockByFuntions />
+      <hr />
+      
     </div>
   );
 }
